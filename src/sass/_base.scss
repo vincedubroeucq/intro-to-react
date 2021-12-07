@@ -1,0 +1,16 @@
+body,
+input,
+button {
+    font-family: $font-sans;
+    font-size: 1rem;
+}
+
+svg {
+    color: currentColor;
+    height: 1rem;
+    width: 1rem;
+}
+
+img {
+    max-width: 100%;
+}

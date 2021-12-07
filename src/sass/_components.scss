@@ -1,0 +1,27 @@
+.logo {
+    max-width: 45px;
+}
+
+.main-grid {
+    grid-gap: $sp-8;
+    @media (min-width: $md){
+        grid-template-columns: 3fr 1fr;
+    }
+}
+
+.products-grid {
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    grid-gap: $sp-4;
+}
+
+.cart {
+    .image {
+        max-width: 75px;
+    }
+    .product-info {
+        flex: 1 0 0px;
+    }
+    input.qty {
+        max-width: 3rem;
+    }
+}
